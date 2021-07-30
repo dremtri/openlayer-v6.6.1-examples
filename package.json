@@ -1,23 +1,16 @@
 {
   "name": "openlayer-v6.6.1-examples",
   "version": "1.0.0",
-  "main": "index.html",
   "repository": "https://github.com/dremtri/openlayer-v6.6.1-examples.git",
   "author": "maozhengwei <zhengwei.mao@watrix.ai>",
   "license": "MIT",
   "scripts": {
     "start": "parcel serve src/**/*.html --no-cache",
-    "build": "parcel build src/**/*.html --public-url /study-website/"
+    "build": "parcel build src/**/*.html --dist-dir www"
   },
   "devDependencies": {
     "@parcel/transformer-less": "2.0.0-beta.3.1",
-    "@parcel/transformer-postcss": "^2.0.0-alpha.3",
-    "autoprefixer": "^10.3.1",
     "parcel": "^2.0.0-beta.3.1",
-    "postcss": "^8.1.4",
-    "postcss-flexbugs-fixes": "^5.0.2",
-    "posthtml-include": "^1.7.1",
-    "posthtml-modules": "^0.7.4",
-    "posthtml-shorten": "^1.0.0"
+    "posthtml-include": "^1.7.1"
   }
 }
