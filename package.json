@@ -9,8 +9,9 @@
     "build": "parcel build src/**/*.html --dist-dir www"
   },
   "devDependencies": {
-    "@parcel/transformer-less": "2.0.0-beta.3.1",
-    "parcel": "^2.0.0-beta.3.1",
+    "@parcel/transformer-image": "2.0.0-rc.0",
+    "@parcel/transformer-less": "2.0.0-rc.0",
+    "parcel": "^2.0.0-rc.0",
     "posthtml-include": "^1.7.1"
   }
 }
