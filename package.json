@@ -5,8 +5,8 @@
   "author": "maozhengwei <zhengwei.mao@watrix.ai>",
   "license": "MIT",
   "scripts": {
-    "start": "parcel serve src/**/*.html --no-cache",
-    "build": "parcel build src/**/*.html --dist-dir www"
+    "start": "parcel serve src/pages/**/*.html --no-cache",
+    "build": "parcel build src/pages/**/*.html --dist-dir www"
   },
   "devDependencies": {
     "@parcel/babel-plugin-transform-runtime": "^2.0.0-nightly.1823",
