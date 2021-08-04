@@ -1,1 +1,1 @@
-import '../assets/styles/common/index.less';
+import 'assets/styles/common/index.less';

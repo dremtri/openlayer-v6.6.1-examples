@@ -2,7 +2,7 @@
   "name": "openlayer-v6.6.1-examples",
   "version": "1.0.0",
   "repository": "https://github.com/dremtri/openlayer-v6.6.1-examples.git",
-  "author": "maozhengwei <zhengwei.mao@watrix.ai>",
+  "author": "dremtri",
   "license": "MIT",
   "scripts": {
     "start": "parcel serve src/pages/**/*.html --no-cache",
@@ -15,5 +15,9 @@
     "@parcel/transformer-less": "2.0.0-rc.0",
     "parcel": "^2.0.0-rc.0",
     "posthtml-include": "^1.7.1"
+  },
+  "alias": {
+    "assets": "./src/assets",
+    "components": "./src/components"
   }
 }
